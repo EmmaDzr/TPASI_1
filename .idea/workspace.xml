@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ab3d809-1352-41e0-ac5f-593013a2ded5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mfranceschi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/Apprenti.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/Etape.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/Promotion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/Tp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Progression.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Promotion.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Promotion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Tp.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Tp.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570004055124</updated>
-      <workItem from="1570004056334" duration="5458000" />
+      <workItem from="1570004056334" duration="5722000" />
     </task>
     <servers />
   </component>

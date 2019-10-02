@@ -8,7 +8,7 @@ class Tp
     private $_date_debut;
     private $_titre;
     private Promotion $_promo;
-    
+
     public function __construct($_description, $_date_debut, $_titre)
     {
         $this->_description = $_description;
