@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <link rel="stylesheet" href="CSS/style.css" />
+      <link rel="stylesheet" href="../../css/style.css" />
     <title> Projet Alternant </title>
   </head>
 
@@ -14,7 +14,7 @@
 
       <body>
           <div id="container">
-              <form action="verification.php" method="POST">
+              <form action="auth.php" method="POST">
                   <h1>Connexion</h1>
 
                   <label><b>Nom d'utilisateur</b></label>
