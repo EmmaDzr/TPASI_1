@@ -13,18 +13,20 @@
 
 
       <body>
-          <div id="container">
-              <form action="../back/auth.php" method="POST">
-                  <h1>Connexion</h1>
-
-                  <label><b>Nom d'utilisateur</b></label>
-                  <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
-
-                  <label><b>Mot de passe</b></label>
-                  <input type="password" placeholder="Entrer le mot de passe" name="password" required>
-
-                  <input type="submit" id='submit' value='LOGIN' >
-              </form>
+          <form class="sign-in-htm" action="./api/user/login.php" method="POST">
+            <div class="group">
+              <label for="user" class="label">Identifiant</label>
+              <input id="username" name="username" type="text" class="input">
+            </div>
+            <div class="group">
+              <label for="pass" class="label">Mot de Passe</label>
+              <input id="password" name="password" type="password" class="input" data-type="password">
+            </div>
+            <div class="group">
+              <input type="submit" class="button" value="Sign In">
+            </div>
+            <div class="hr"></div>
+          </form>
           </div>
       </body>
   </html>
