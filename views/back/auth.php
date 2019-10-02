@@ -3,19 +3,19 @@
 $login_valide = "admin";
 $pwd_valide = "admin";
 
-if (isset($_POST['username']) && isset($_POST['passwd'])) {
-    if ($login_valide == $_POST['login'] && $pwd_valide == $_POST['pwd']) {
+if (isset($_POST['username']) && isset($_POST['password'])) {
+    if ($login_valide == $_POST['username'] && $pwd_valide == $_POST['password']) {
 
         session_start ();
 
-        $_SESSION['login'] = $_POST['login'];
-        $_SESSION['pwd'] = $_POST['pwd'];
+        $_SESSION['username'] = $_POST['username'];
+        $_SESSION['password'] = $_POST['password'];
 
         header ('location: page_formateur.php');
     }
     else {
         echo '<body onLoad="alert(\'Membre non reconnu...\')">';
-        echo '<meta http-equiv="refresh" content="0;URL=index.htm">';
+        header ('location: page_apprenti.php');
     }
 }
 else {
