@@ -52,7 +52,7 @@ if(isset($_POST['username']) && isset($_POST['password']))
 }
 else
 {
-   header('Location: index.php');
+   header('Location: ../front/index.php');
 }
 mysqli_close($db); // fermer la connexion
 ?>

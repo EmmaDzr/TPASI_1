@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ab3d809-1352-41e0-ac5f-593013a2ded5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dao/Apprenti_DAO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/Etape_DAO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/Promotion_DAO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/Tp_DAO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/Apprenti.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Apprenti.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/back/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/back/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/front/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +65,9 @@
       <workItem from="1570004056334" duration="7119000" />
       <workItem from="1570016246885" duration="4718000" />
       <workItem from="1570021022352" duration="1095000" />
-      <workItem from="1570083147843" duration="10200000" />
+      <workItem from="1570083147843" duration="10711000" />
+      <workItem from="1570093908888" duration="728000" />
+      <workItem from="1570094827736" duration="126000" />
     </task>
     <servers />
   </component>
