@@ -7,6 +7,18 @@ class Apprenti
     private $_nom;
     private $_prenom;
     private Promotion $_promotion;
+    private $_apprentis = [];
+
+    public function getApprentis()
+    {
+        return $this->_apprentis;
+    }
+
+    public function setApprentis($apprenti)
+    {
+        array_push($this->_apprentis, $apprenti);
+        return $this;
+    }
 
     public function __construct($_nom, $_prenom)
     {
