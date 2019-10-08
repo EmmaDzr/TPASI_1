@@ -3,27 +3,41 @@
 
 class Apprenti_DAO
 {
-    public function create($libelle)
-    {
-        $sql = 'SELECT ' . $libelle . 'FROM tp';
-    }
 
+    public function create()
+    {
+
+    }
     public function read()
     {
+        $apprentis = new ArrayObject(array(), ArrayObject::STD_PROP_LIST);
         $database = new database_();
-        $apprenti = new Apprenti();
-        $sql = 'SELECT nom, prenom FROM apprenti';
-        $pdo = $database->connection();
-        $apprenti->setApprentis($pdo->fetchAll(PDO::FETCH_CLASS, $apprenti));
-        $database->disconnection($pdo);
+        $dbh = $database->connection();
+        foreach ($dbh->query('SELECT nom, prenom FROM apprenti') as $apprenti)
+        {
+            $apprentis->append($apprenti);
+        }
+        $database->disconnection($dbh);
+        return $apprentis;
     }
 
-    public function update()
+    public function find($id)
+    {
+        $apprentis = new ArrayObject(array(), ArrayObject::STD_PROP_LIST);
+        $database = new database_();
+        $dbh = $database->connection();
+        $apprenti = $dbh->query('SELECT nom, prenom FROM apprenti WHERE id='.$id);
+        $apprentis->append($apprenti);
+        $database->disconnection($dbh);
+        return $apprentis;
+    }
+
+    public function update($id)
     {
 
     }
 
-    public function delete()
+    public function delete($id)
     {
 
     }

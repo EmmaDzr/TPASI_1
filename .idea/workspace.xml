@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2ab3d809-1352-41e0-ac5f-593013a2ded5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/Apprenti_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/Apprenti_DAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/Promotion_DAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/Promotion_DAO.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/back/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/back/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/front/page_apprenti.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front/page_apprenti.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/front/page_formateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front/page_formateur.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +71,8 @@
       <workItem from="1570021022352" duration="1095000" />
       <workItem from="1570083147843" duration="10711000" />
       <workItem from="1570093908888" duration="728000" />
-      <workItem from="1570094827736" duration="207000" />
+      <workItem from="1570094827736" duration="1468000" />
+      <workItem from="1570515021203" duration="11838000" />
     </task>
     <servers />
   </component>
